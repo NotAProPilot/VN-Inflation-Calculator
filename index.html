@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="icon"
+    href=
+    "images\logo.png"
+    type="image/x-icon"
+/>
+    <title>Inflation Calculator</title>
+    <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- add icon link -->
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calculator">
+            <h1>Inflation Calculator</h1>
+            <!-- Input field for the initial amount -->
+            <div class="form-group">
+                <label for="amount">If I bought something for</label>
+                <input type="number" id="amount" placeholder="5000 ₫">
+            </div>
+            <!-- Input field for the starting year -->
+            <div class="form-group">
+                <label for="year1">in the year of</label>
+                <input type="number" id="year1" placeholder="1995">
+            </div>
+            <!-- Input field for the target year -->
+            <div class="form-group">
+                <label for="year2">In the year of</label>
+                <input type="number" id="year2" placeholder="">
+            </div>
+            <!-- Button to trigger the calculation -->
+            <button id="calculate">Calculate</button>
+        </div>
+        <!-- Container to display the results -->
+        <div id="result-container" class="result" style="display:none;">
+            <p>If you bought an item for <span id="display-amount"></span> in <span id="display-year1"></span>,</p>
+            <p>the same item would cost <span id="display-result"></span> in <span id="display-year2"></span>.</p>
+            <p>Cumulative CPI: <span id="display-cpi"></span>.</p>
+            <p class="source">Source: General Statistics Office of Vietnam, via IMF<br>Data is available between 1995 and 2024.</p>
+        </div>
+    </div>
+    <!-- Link to the JavaScript file for functionality -->
+    <script src="scripts.js"></script>
+</body>
+</html>
