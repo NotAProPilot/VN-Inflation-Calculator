@@ -6,7 +6,7 @@ This repository provides a tool to calculate the inflation rate for the Vietname
 - User-Friendly Interface: Simple and intuitive to use.
 
 # How It Works
-This calculator uses the following formula to calculate inflation: 
+This calculator uses the following formula to calculate inflation: <br>
 ![image](https://github.com/user-attachments/assets/ba1579b6-97d1-438c-9914-a4639c6895a2)
 
 # Usage and deployment
